@@ -20,19 +20,20 @@ Execute the C Program for the desired output.
 
 # PROGRAM:
 
-## Write a C program that implements a producer-consumer system with two processes using Semaphores.
+## Write a C program that implements a producer-consumer system with two processes using Semaphores.mm
 
 
 
 
 ## OUTPUT
-$ ./sem.o 
+semaphore
+
+![Alt text](ex055.png)
 
 
-$ ipcs
+ipcs
 
-
-
+![Alt text](ex056.png)
 
 
 # RESULT:
