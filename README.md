@@ -48,7 +48,7 @@ void wait_semaphore(int sem_set_id) {
     sem_op.sem_op = -1;  // Decrease semaphore value (Wait)
     sem_op.sem_flg = 0;
     semop(sem_set_id, &sem_op, 1);
-}
+}.
 
 // Function to signal (V operation) on semaphore
 void signal_semaphore(int sem_set_id) {
